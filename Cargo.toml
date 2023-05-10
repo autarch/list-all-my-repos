@@ -1,0 +1,13 @@
+[package]
+name = "list-all-my-repos"
+version = "0.1.0"
+license = "MIT OR Apache-2.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+anyhow = "1.0.56"
+itertools = "0.10.3"
+octorust = "0.1.35"
+tokio = { version = "1.17.0", features = ["full"] }
